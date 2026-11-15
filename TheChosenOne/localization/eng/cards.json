@@ -1,3 +1,8 @@
 {
-  
+    "THECHOSENONE-STRIKE_THE_CHOSEN_ONE.description": "Deal {Damage:diff()} damage.",
+    "THECHOSENONE-STRIKE_THE_CHOSEN_ONE.title": "Strike",
+    "THECHOSENONE-DEFEND_THE_CHOSEN_ONE.description": "Gain {Block:diff()} [gold]Block[/gold].",
+    "THECHOSENONE-DEFEND_THE_CHOSEN_ONE.title": "Defend",
+    "THECHOSENONE-HARVEST.description": "Deal {Damage:diff()} damage. If this kills an enemy, gain {RitualPower:diff()} [gold]Ritual[/gold].",
+    "THECHOSENONE-HARVEST.title": "Harvest"
 }

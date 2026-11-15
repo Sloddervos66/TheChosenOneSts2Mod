@@ -3,11 +3,11 @@ using BaseLib.Utils.NodeFactories;
 using TheChosenOne.TheChosenOneCode.Extensions;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Characters;
-using MegaCrit.Sts2.Core.Helpers;
 using MegaCrit.Sts2.Core.Models;
-using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.Relics;
+using TheChosenOne.TheChosenOneCode.Cards.Basic;
 using TheChosenOne.TheChosenOneCode.Constants;
+using Offering = MegaCrit.Sts2.Core.Models.Cards.Offering;
 
 namespace TheChosenOne.TheChosenOneCode.Character;
 
@@ -21,16 +21,17 @@ public class TheChosenOne : PlaceholderCharacterModel
 
     public override IEnumerable<CardModel> StartingDeck =>
     [
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>()
+        ModelDb.Card<StrikeTheChosenOne>(),
+        ModelDb.Card<StrikeTheChosenOne>(),
+        ModelDb.Card<StrikeTheChosenOne>(),
+        ModelDb.Card<StrikeTheChosenOne>(),
+        ModelDb.Card<StrikeTheChosenOne>(),
+        ModelDb.Card<DefendTheChosenOne>(),
+        ModelDb.Card<DefendTheChosenOne>(),
+        ModelDb.Card<DefendTheChosenOne>(),
+        ModelDb.Card<DefendTheChosenOne>(),
+        ModelDb.Card<DefendTheChosenOne>(),
+        ModelDb.Card<Harvest>()
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
