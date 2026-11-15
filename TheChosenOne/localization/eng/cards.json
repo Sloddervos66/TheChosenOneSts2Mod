@@ -1,4 +1,7 @@
 {
+    "THECHOSENONE-SOULREND.description": "Transform into [gold]Awakened[/gold].",
+    "THECHOSENONE-SOULREND.title": "Soulrend",
+    
     "THECHOSENONE-STRIKE_THE_CHOSEN_ONE.description": "Deal {Damage:diff()} damage.",
     "THECHOSENONE-STRIKE_THE_CHOSEN_ONE.title": "Strike",
     "THECHOSENONE-DEFEND_THE_CHOSEN_ONE.description": "Gain {Block:diff()} [gold]Block[/gold].",
