@@ -1,4 +1,28 @@
 {
+    "NONUPEIPE.talk.THECHOSENONE-THE_CHOSEN_ONE.0-0r.char": "",
+    "NONUPEIPE.talk.THECHOSENONE-THE_CHOSEN_ONE.0-0r.next": "Continue",
+    "NONUPEIPE.talk.THECHOSENONE-THE_CHOSEN_ONE.0-1r.ancient": "",
+
+    "OROBAS.talk.THECHOSENONE-THE_CHOSEN_ONE.0-0r.char": "",
+    "OROBAS.talk.THECHOSENONE-THE_CHOSEN_ONE.0-0r.next": "Continue",
+    "OROBAS.talk.THECHOSENONE-THE_CHOSEN_ONE.0-1r.ancient": "",
+
+    "PAEL.talk.THECHOSENONE-THE_CHOSEN_ONE.0-0r.char": "",
+    "PAEL.talk.THECHOSENONE-THE_CHOSEN_ONE.0-0r.next": "Continue",
+    "PAEL.talk.THECHOSENONE-THE_CHOSEN_ONE.0-1r.ancient": "",
+
+    "TANX.talk.THECHOSENONE-THE_CHOSEN_ONE.0-0r.char": "",
+    "TANX.talk.THECHOSENONE-THE_CHOSEN_ONE.0-0r.next": "Continue",
+    "TANX.talk.THECHOSENONE-THE_CHOSEN_ONE.0-1r.ancient": "",
+
+    "TEZCATARA.talk.THECHOSENONE-THE_CHOSEN_ONE.0-0r.char": "",
+    "TEZCATARA.talk.THECHOSENONE-THE_CHOSEN_ONE.0-0r.next": "Continue",
+    "TEZCATARA.talk.THECHOSENONE-THE_CHOSEN_ONE.0-1r.ancient": "",
+
+    "VAKUU.talk.THECHOSENONE-THE_CHOSEN_ONE.0-0r.char": "",
+    "VAKUU.talk.THECHOSENONE-THE_CHOSEN_ONE.0-0r.next": "Continue",
+    "VAKUU.talk.THECHOSENONE-THE_CHOSEN_ONE.0-1r.ancient": "",
+    
     "THE_ARCHITECT.talk.THECHOSENONE-THE_CHOSEN_ONE.0-0r.char": "I am angry at the architect",
     "THE_ARCHITECT.talk.THECHOSENONE-THE_CHOSEN_ONE.0-0r.next": "Continue",
     "THE_ARCHITECT.talk.THECHOSENONE-THE_CHOSEN_ONE.0-1r.ancient": "You die",
