@@ -1,0 +1,16 @@
+{
+    "THECHOSENONE-THE_CHOSEN_ONE.aromaPrinciple": "[sine][bloodred]Gone, but not forgotten...[/bloodred][/sine]",
+    "THECHOSENONE-THE_CHOSEN_ONE.banter.alive.endTurnPing": "Sacrifices take time...",
+    "THECHOSENONE-THE_CHOSEN_ONE.banter.dead.endTurnPing": "I shall live forth!",
+    "THECHOSENONE-THE_CHOSEN_ONE.cardsModifierDescription": "The Chosen One cards will now appear in rewards and shops.",
+    "THECHOSENONE-THE_CHOSEN_ONE.cardsModifierTitle": "The Chosen One Cards",
+    "THECHOSENONE-THE_CHOSEN_ONE.description": "[bloodred]This should be blood red[/bloodred]\n[heartbeat]This should pulse[/heartbeat]",
+    "THECHOSENONE-THE_CHOSEN_ONE.eventDeathPrevention": "My time will come another time.",
+    "THECHOSENONE-THE_CHOSEN_ONE.goldMonologue": "This shall make worthy sacrifices.",
+    "THECHOSENONE-THE_CHOSEN_ONE.possessiveAdjective": "his",
+    "THECHOSENONE-THE_CHOSEN_ONE.pronounObject": "him",
+    "THECHOSENONE-THE_CHOSEN_ONE.pronounPossessive": "his",
+    "THECHOSENONE-THE_CHOSEN_ONE.pronounSubject": "he",
+    "THECHOSENONE-THE_CHOSEN_ONE.title": "The Chosen One",
+    "THECHOSENONE-THE_CHOSEN_ONE.titleObject": "The Chosen One"
+}
