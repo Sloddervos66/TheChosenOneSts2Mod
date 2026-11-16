@@ -31,8 +31,7 @@ public partial class Harvest()
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         var target = cardPlay.Target;
-        if (target is null)
-            return;
+        ArgumentNullException.ThrowIfNull(target, "cardPlay.Target");
 
         await DamageCmd
             .Attack(DynamicVars.Damage.BaseValue)

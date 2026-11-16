@@ -16,14 +16,11 @@ public partial class StrikeTheChosenOne()
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        var target = cardPlay.Target;
-        if (target == null)
-            return;
-
+        ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
         await DamageCmd
             .Attack(DynamicVars.Damage.BaseValue)
             .FromCard(this, cardPlay)
-            .Targeting(target)
+            .Targeting(cardPlay.Target)
             .WithHitFx(DefaultAttackVfx)
             .Execute(choiceContext);
     }
