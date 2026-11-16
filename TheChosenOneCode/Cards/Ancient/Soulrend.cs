@@ -19,10 +19,6 @@ public partial class Soulrend()
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        var target = cardPlay.Target;
-        if (target is null || target != Owner.Creature)
-            return;
-
         await PowerCmd.Apply<AwakenedPower>(
             choiceContext,
             Owner.Creature,

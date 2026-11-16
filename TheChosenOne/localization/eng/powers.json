@@ -1,5 +1,5 @@
 {
-    "THECHOSENONE-AWAKENED_POWER.description": "",
-    "THECHOSENONE-AWAKENED_POWER.smartDescription": "",
+    "THECHOSENONE-AWAKENED_POWER.description": "Gain [blue]2[/blue] [gold]Strength[/gold]. Whenever you play a [gold]Power[/gold] card, gain [gold]Strength[/gold] equal to its [gold]Energy[/gold] cost.",
+    "THECHOSENONE-AWAKENED_POWER.smartDescription": "Gain [blue]{StrengthPower}[/blue] [gold]Strength[/gold]. Whenever you play a [gold]Power[/gold] card, gain [gold]Strength[/gold] equal to its [gold]Energy[/gold] cost.",
     "THECHOSENONE-AWAKENED_POWER.title": "Awakened"
 }
