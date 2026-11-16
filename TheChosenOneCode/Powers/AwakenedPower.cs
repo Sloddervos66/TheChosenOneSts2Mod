@@ -1,8 +1,6 @@
-﻿using BaseLib.Utils;
-using MegaCrit.Sts2.Core.Commands;
+﻿using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
-using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
@@ -13,17 +11,14 @@ using MegaCrit.Sts2.Core.Models.Powers;
 
 namespace TheChosenOne.TheChosenOneCode.Powers;
 
-// Changes form to Awakened
-// Grants 2 strength on apply
-// Grants a new power that whenever a power card is played gain strength equal to the amount of energy
 public sealed class AwakenedPower : TheChosenOnePower
 {
     public const string Name = nameof(AwakenedPower);
+
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new PowerVar<StrengthPower>(3m)
     ];
-
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
         HoverTipFactory.FromPower<StrengthPower>()
@@ -34,9 +29,9 @@ public sealed class AwakenedPower : TheChosenOnePower
 
     public override async Task AfterApplied(Creature? applier, CardModel? cardSource)
     {
-        if (Owner != applier)
+        if (Owner != applier || Character.TheChosenOne.IsAwakened)
             return;
-
+        
         await PowerCmd.Apply<StrengthPower>(
             new ThrowingPlayerChoiceContext(),
             Owner,
@@ -44,6 +39,8 @@ public sealed class AwakenedPower : TheChosenOnePower
             Owner,
             cardSource
         );
+
+        Character.TheChosenOne.IsAwakened = true;
     }
 
     public override async Task AfterCardPlayed(PlayerChoiceContext choiceContext, CardPlay cardPlay)

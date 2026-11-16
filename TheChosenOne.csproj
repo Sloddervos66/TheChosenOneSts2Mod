@@ -62,6 +62,15 @@
     </ItemGroup>
 
     <ItemGroup>
+        <Folder Include="TheChosenOneCode\Cards\Common\Attacks\" />
+        <Folder Include="TheChosenOneCode\Cards\Common\Powers\" />
+        <Folder Include="TheChosenOneCode\Cards\Common\Skills\" />
+        <Folder Include="TheChosenOneCode\Cards\Rare\Attacks\" />
+        <Folder Include="TheChosenOneCode\Cards\Rare\Powers\" />
+        <Folder Include="TheChosenOneCode\Cards\Rare\Skills\" />
+        <Folder Include="TheChosenOneCode\Cards\Uncommon\Attacks\" />
+        <Folder Include="TheChosenOneCode\Cards\Uncommon\Powers\" />
+        <Folder Include="TheChosenOneCode\Cards\Uncommon\Skills\" />
         <Folder Include="TheChosenOne\images\card_portraits\big\"/>
         <Folder Include="TheChosenOne\images\powers\big\"/>
         <Folder Include="TheChosenOne\images\relics\big\"/>

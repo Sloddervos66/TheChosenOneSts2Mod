@@ -7,13 +7,14 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Relics;
 using TheChosenOne.TheChosenOneCode.Cards.Basic;
 using TheChosenOne.TheChosenOneCode.Constants;
-using Offering = MegaCrit.Sts2.Core.Models.Cards.Offering;
 
 namespace TheChosenOne.TheChosenOneCode.Character;
 
 public class TheChosenOne : PlaceholderCharacterModel
 {
     public const string CharacterId = "TheChosenOne";
+
+    public static bool IsAwakened = false;
 
     public override Color NameColor => TheChosenOneColours.BloodRed;
     public override CharacterGender Gender => CharacterGender.Masculine;

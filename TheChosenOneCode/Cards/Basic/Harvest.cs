@@ -1,20 +1,22 @@
-﻿using BaseLib.Extensions;
-using BaseLib.Utils;
+﻿using BaseLib.Abstracts;
+using BaseLib.Extensions;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
+using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
-using TheChosenOne.TheChosenOneCode.Character;
+using TheChosenOne.TheChosenOneCode.Cards.Ancient;
 
 namespace TheChosenOne.TheChosenOneCode.Cards.Basic;
 
-[Pool(typeof(TheChosenOneCardPool))]
 public partial class Harvest()
-    : TheChosenOneCard(2, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy)
+    : TheChosenOneCard(2, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy), ITranscendenceCard
 {
+    public CardModel GetTranscendenceTransformedCard() => ModelDb.Card<Soulrend>();
+    
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new DamageVar(8m, ValueProp.Move),
@@ -25,7 +27,7 @@ public partial class Harvest()
     [
         HoverTipFactory.FromPower<RitualPower>()
     ];
-
+    
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         var target = cardPlay.Target;

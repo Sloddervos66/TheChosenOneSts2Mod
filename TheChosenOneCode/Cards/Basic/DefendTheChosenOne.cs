@@ -8,7 +8,6 @@ using TheChosenOne.TheChosenOneCode.Character;
 
 namespace TheChosenOne.TheChosenOneCode.Cards.Basic;
 
-[Pool(typeof(TheChosenOneCardPool))]
 public partial class DefendTheChosenOne()
     : TheChosenOneCard(1, CardType.Skill, CardRarity.Basic, TargetType.Self)
 {

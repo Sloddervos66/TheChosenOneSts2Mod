@@ -8,7 +8,6 @@ using TheChosenOne.TheChosenOneCode.Character;
 
 namespace TheChosenOne.TheChosenOneCode.Cards.Basic;
 
-[Pool(typeof(TheChosenOneCardPool))]
 public partial class StrikeTheChosenOne() 
     : TheChosenOneCard(1, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy)
 {
