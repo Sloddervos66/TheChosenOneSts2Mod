@@ -77,6 +77,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Content Include="cards-overview.md" />
       <Content Include="README.md" />
     </ItemGroup>
 

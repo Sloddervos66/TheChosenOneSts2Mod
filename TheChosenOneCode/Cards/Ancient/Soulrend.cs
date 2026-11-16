@@ -11,15 +11,9 @@ namespace TheChosenOne.TheChosenOneCode.Cards.Ancient;
 public partial class Soulrend()
     : TheChosenOneCard(2, CardType.Skill, CardRarity.Ancient, TargetType.Self)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars =>
-    [
-        new HpLossVar(10m)
-    ];
-
-    protected override IEnumerable<IHoverTip> ExtraHoverTips =>
-    [
-        HoverTipFactory.FromPower<AwakenedPower>()
-    ];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new HpLossVar(10m)];
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<AwakenedPower>()];
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {

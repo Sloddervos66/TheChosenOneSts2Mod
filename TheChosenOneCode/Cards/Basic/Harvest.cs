@@ -22,11 +22,7 @@ public partial class Harvest()
         new DamageVar(8m, ValueProp.Move),
         new PowerVar<RitualPower>(3m)
     ];
-
-    protected override IEnumerable<IHoverTip> ExtraHoverTips =>
-    [
-        HoverTipFactory.FromPower<RitualPower>()
-    ];
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<RitualPower>()];
     
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
