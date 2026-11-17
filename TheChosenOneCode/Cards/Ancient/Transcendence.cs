@@ -8,7 +8,7 @@ using TheChosenOne.TheChosenOneCode.Powers;
 
 namespace TheChosenOne.TheChosenOneCode.Cards.Ancient;
 
-public partial class Soulrend()
+public partial class Transcendence()
     : TheChosenOneCard(2, CardType.Skill, CardRarity.Ancient, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new HpLossVar(10m)];

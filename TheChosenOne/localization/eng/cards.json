@@ -1,6 +1,6 @@
 {
-    "THECHOSENONE-SOULREND.description": "Deal {HpLoss} damage to yourself. Transform into [gold]Awakened[/gold].",
-    "THECHOSENONE-SOULREND.title": "Soulrend",
+    "THECHOSENONE-TRANSCENDENCE.description": "Deal {HpLoss} damage to yourself. Transform into [gold]Awakened[/gold].",
+    "THECHOSENONE-TRANSCENDENCE.title": "Transcendence",
     
     "THECHOSENONE-STRIKE_THE_CHOSEN_ONE.description": "Deal {Damage:diff()} damage.",
     "THECHOSENONE-STRIKE_THE_CHOSEN_ONE.title": "Strike",

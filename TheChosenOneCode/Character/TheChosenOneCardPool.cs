@@ -1,6 +1,7 @@
 ﻿using BaseLib.Abstracts;
 using TheChosenOne.TheChosenOneCode.Extensions;
 using Godot;
+using TheChosenOne.TheChosenOneCode.Constants;
 
 namespace TheChosenOne.TheChosenOneCode.Character;
 
@@ -28,7 +29,7 @@ public class TheChosenOneCardPool : CustomCardPoolModel
     }*/
 
     //Color of small card icons
-    public override Color DeckEntryCardColor => new("ffffff");
+    public override Color DeckEntryCardColor => TheChosenOneColours.BloodRed;
 
     public override bool IsColorless => false;
 }

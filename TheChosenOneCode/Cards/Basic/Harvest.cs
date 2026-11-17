@@ -15,7 +15,7 @@ namespace TheChosenOne.TheChosenOneCode.Cards.Basic;
 public partial class Harvest()
     : TheChosenOneCard(2, CardType.Attack, CardRarity.Basic, TargetType.AnyEnemy), ITranscendenceCard
 {
-    public CardModel GetTranscendenceTransformedCard() => ModelDb.Card<Soulrend>();
+    public CardModel GetTranscendenceTransformedCard() => ModelDb.Card<Transcendence>();
     
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
