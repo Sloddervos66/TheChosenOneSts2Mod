@@ -7,5 +7,11 @@
     "THECHOSENONE-DEFEND_THE_CHOSEN_ONE.description": "Gain {Block:diff()} [gold]Block[/gold].",
     "THECHOSENONE-DEFEND_THE_CHOSEN_ONE.title": "Defend",
     "THECHOSENONE-HARVEST.description": "Deal {Damage:diff()} damage. If this kills an enemy, gain {RitualPower:diff()} [gold]Ritual[/gold].",
-    "THECHOSENONE-HARVEST.title": "Harvest"
+    "THECHOSENONE-HARVEST.title": "Harvest",
+    
+    "THECHOSENONE-BULWARK_SLIME_CARD.description": "Summon 1 [gold]Bulwark Slime[/gold].",
+    "THECHOSENONE-BULWARK_SLIME_CARD.title": "Bulwark Slime",
+    
+    "THECHOSENONE-SLIME_GUARD.description": "Gain {Block:diff()} [gold]Block[/gold].",
+    "THECHOSENONE-SLIME_GUARD.title": "Slime Guard"
 }

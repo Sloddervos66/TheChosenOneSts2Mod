@@ -64,7 +64,6 @@
     <ItemGroup>
         <Folder Include="TheChosenOneCode\Cards\Common\Attacks\" />
         <Folder Include="TheChosenOneCode\Cards\Common\Powers\" />
-        <Folder Include="TheChosenOneCode\Cards\Common\Skills\" />
         <Folder Include="TheChosenOneCode\Cards\Rare\Attacks\" />
         <Folder Include="TheChosenOneCode\Cards\Rare\Powers\" />
         <Folder Include="TheChosenOneCode\Cards\Rare\Skills\" />
@@ -78,6 +77,7 @@
 
     <ItemGroup>
       <Content Include="cards-overview.md" />
+      <Content Include="minion_database.md" />
       <Content Include="README.md" />
     </ItemGroup>
 
