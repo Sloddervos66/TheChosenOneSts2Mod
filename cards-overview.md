@@ -50,53 +50,53 @@ Progress: 4 / 96
 
 *Target distribution: 14 Ritual / 20 Minion / 10 Awakened*
 
-| Name      | Cost | Type           | Rarity   | Target    | Description                    | Upgraded            | Implemented (Y/N) |
-|-----------|------|----------------|----------|-----------|--------------------------------|---------------------|-------------------|
-| Stitch Up | 2    | Skill - Ritual | Uncommon | Self      | Stops Bleeding. Heals 5 HP.    | 5 -> 7.             | N                 |
-| Drain     | 2    | Skill - Ritual | Uncommon | Any Enemy | Apply 3 Weak. Gain 3 Strength. | 4 Weak, 4 Strength. | N                 |
-|           |      | - Ritual       | Uncommon |           |                                |                     | N                 |
-|           |      | - Ritual       | Uncommon |           |                                |                     | N                 |
-|           |      | - Ritual       | Uncommon |           |                                |                     | N                 |
-|           |      | - Ritual       | Uncommon |           |                                |                     | N                 |
-|           |      | - Ritual       | Uncommon |           |                                |                     | N                 |
-|           |      | - Ritual       | Uncommon |           |                                |                     | N                 |
-|           |      | - Ritual       | Uncommon |           |                                |                     | N                 |
-|           |      | - Ritual       | Uncommon |           |                                |                     | N                 |
-|           |      | - Ritual       | Uncommon |           |                                |                     | N                 |
-|           |      | - Ritual       | Uncommon |           |                                |                     | N                 |
-|           |      | - Ritual       | Uncommon |           |                                |                     | N                 |
-|           |      | - Ritual       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Minion       | Uncommon |           |                                |                     | N                 |
-|           |      | - Awakened     | Uncommon |           |                                |                     | N                 |
-|           |      | - Awakened     | Uncommon |           |                                |                     | N                 |
-|           |      | - Awakened     | Uncommon |           |                                |                     | N                 |
-|           |      | - Awakened     | Uncommon |           |                                |                     | N                 |
-|           |      | - Awakened     | Uncommon |           |                                |                     | N                 |
-|           |      | - Awakened     | Uncommon |           |                                |                     | N                 |
-|           |      | - Awakened     | Uncommon |           |                                |                     | N                 |
-|           |      | - Awakened     | Uncommon |           |                                |                     | N                 |
-|           |      | - Awakened     | Uncommon |           |                                |                     | N                 |
-|           |      | - Awakened     | Uncommon |           |                                |                     | N                 |
+| Name       | Cost | Type           | Rarity   | Target    | Description                                                   | Upgraded              | Implemented (Y/N) |
+|------------|------|----------------|----------|-----------|---------------------------------------------------------------|-----------------------|-------------------|
+| Stitch Up  | 2    | Skill - Ritual | Uncommon | Self      | Stops Bleeding. Heals 5 HP.                                   | 5 -> 7.               | N                 |
+| Drain      | 2    | Skill - Ritual | Uncommon | Any Enemy | Apply 3 Weak. Gain 3 Strength.                                | 4 Weak, 4 Strength.   | N                 |
+| Invocation | 2    | Skill - Ritual | Uncommon | Self      | Immediately trigger your Ritual. Then remove all your Ritual. | Trigger Ritual twice. | N                 |
+|            |      | - Ritual       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Ritual       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Ritual       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Ritual       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Ritual       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Ritual       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Ritual       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Ritual       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Ritual       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Ritual       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Ritual       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Minion       | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Awakened     | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Awakened     | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Awakened     | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Awakened     | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Awakened     | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Awakened     | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Awakened     | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Awakened     | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Awakened     | Uncommon |           |                                                               |                       | N                 |
+|            |      | - Awakened     | Uncommon |           |                                                               |                       | N                 |
 
 ## Rare Cards (27)
 
@@ -154,17 +154,17 @@ Progress: 4 / 96
 
 ### Relics (9)
 
-| # | Relic Name             | Description                     | Implemented (Y/N) |
-|---|------------------------|---------------------------------|-------------------|
-| 1 | Starting Relic         | Existing relic                  | Y                 |
-| 2 | Starting Relic Upgrade | Upgraded form of starting relic | N                 |
-| 3 |                        |                                 | N                 |
-| 4 |                        |                                 | N                 |
-| 5 |                        |                                 | N                 |
-| 6 |                        |                                 | N                 |
-| 7 |                        |                                 | N                 |
-| 8 |                        |                                 | N                 |
-| 9 |                        |                                 | N                 |
+| # | Relic Name       | Description                                                                 | Implemented (Y/N) |
+|---|------------------|-----------------------------------------------------------------------------|-------------------|
+| 1 | Shattering Aura  | Ritual now decays by 1 at the end of the turn. Before combat gain 3 Ritual. | Y                 |
+| 2 | Enlightened Aura | Ritual now longer decays for you. Before combat gain 3 Ritual.              | Y                 |
+| 3 |                  |                                                                             | N                 |
+| 4 |                  |                                                                             | N                 |
+| 5 |                  |                                                                             | N                 |
+| 6 |                  |                                                                             | N                 |
+| 7 |                  |                                                                             | N                 |
+| 8 |                  |                                                                             | N                 |
+| 9 |                  |                                                                             | N                 |
 
 ### Custom Potions (3)
 

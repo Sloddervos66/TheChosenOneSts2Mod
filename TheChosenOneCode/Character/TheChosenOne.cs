@@ -4,9 +4,9 @@ using TheChosenOne.TheChosenOneCode.Extensions;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Characters;
 using MegaCrit.Sts2.Core.Models;
-using MegaCrit.Sts2.Core.Models.Relics;
 using TheChosenOne.TheChosenOneCode.Cards.Basic;
 using TheChosenOne.TheChosenOneCode.Constants;
+using TheChosenOne.TheChosenOneCode.Relics;
 
 namespace TheChosenOne.TheChosenOneCode.Character;
 
@@ -37,7 +37,7 @@ public class TheChosenOne : PlaceholderCharacterModel
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
     [
-        ModelDb.Relic<BurningBlood>()
+        ModelDb.Relic<ShatteringAuraRelic>()
     ];
 
     public override CardPoolModel CardPool => ModelDb.CardPool<TheChosenOneCardPool>();

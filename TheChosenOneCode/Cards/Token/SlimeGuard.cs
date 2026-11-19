@@ -1,11 +1,14 @@
-﻿using MegaCrit.Sts2.Core.Commands;
+﻿using BaseLib.Utils;
+using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
+using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.ValueProps;
 
 namespace TheChosenOne.TheChosenOneCode.Cards.Token;
 
+[Pool(typeof(TokenCardPool))]
 public class SlimeGuard() 
     : TheChosenOneCard(0, CardType.Skill, CardRarity.Token, TargetType.Self)
 {
