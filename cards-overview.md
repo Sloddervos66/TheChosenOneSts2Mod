@@ -23,28 +23,28 @@ Progress: 4 / 96
 
 *Target distribution: 14 Ritual / 5 Minion / 1 Awakened*
 
-| Name             | Cost | Type            | Rarity | Target    | Description                      | Upgraded     | Implemented (Y/N) |
-|------------------|------|-----------------|--------|-----------|----------------------------------|--------------|-------------------|
-| Sacrifial Dagger | 1    | Attack - Ritual | Common | Any enemy | Deal 4 damage. Apply 2 Bleeding. | 4 -> 7.      | N                 |
-|                  |      | - Ritual        | Common |           |                                  |              | N                 |
-|                  |      | - Ritual        | Common |           |                                  |              | N                 |
-|                  |      | - Ritual        | Common |           |                                  |              | N                 |
-|                  |      | - Ritual        | Common |           |                                  |              | N                 |
-|                  |      | - Ritual        | Common |           |                                  |              | N                 |
-|                  |      | - Ritual        | Common |           |                                  |              | N                 |
-|                  |      | - Ritual        | Common |           |                                  |              | N                 |
-|                  |      | - Ritual        | Common |           |                                  |              | N                 |
-|                  |      | - Ritual        | Common |           |                                  |              | N                 |
-|                  |      | - Ritual        | Common |           |                                  |              | N                 |
-|                  |      | - Ritual        | Common |           |                                  |              | N                 |
-|                  |      | - Ritual        | Common |           |                                  |              | N                 |
-|                  |      | - Ritual        | Common |           |                                  |              | N                 |
-| Bulwark Slime    | 2    | Skill - Minion  | Common | Self      | Summon 1 Bulwark Slime.          | Cost 2 -> 1. | Y                 |
-| Ravager Slime    | 2    | Skill - Minion  | Common | Self      | Summon 1 Ravager Slime.          | Cost 2 -> 1. | N                 |
-|                  |      | - Minion        | Common |           |                                  |              | N                 |
-|                  |      | - Minion        | Common |           |                                  |              | N                 |
-|                  |      | - Minion        | Common |           |                                  |              | N                 |
-|                  |      | - Awakened      | Common |           |                                  |              | N                 |
+| Name             | Cost | Type            | Rarity | Target    | Description                                            | Upgraded     | Implemented (Y/N) |
+|------------------|------|-----------------|--------|-----------|--------------------------------------------------------|--------------|-------------------|
+| Sacrifial Dagger | 1    | Attack - Ritual | Common | Any enemy | Deal 4 damage. Apply 2 Bleeding.                       | 4 -> 7.      | N                 |
+| Secrecy          | 1    | Skill - Ritual  | Common | Self      | Gain 7 Block. Add Retain to a random card in Hand.     | 7 -> 10.     | N                 |
+| Fortification    | 2    | Skill - Ritual  | Common | Self      | Gain 6 Block. Gain 2 additional Block for each Ritual. | 6 -> 8.      | N                 |
+|                  |      | - Ritual        | Common |           |                                                        |              | N                 |
+|                  |      | - Ritual        | Common |           |                                                        |              | N                 |
+|                  |      | - Ritual        | Common |           |                                                        |              | N                 |
+|                  |      | - Ritual        | Common |           |                                                        |              | N                 |
+|                  |      | - Ritual        | Common |           |                                                        |              | N                 |
+|                  |      | - Ritual        | Common |           |                                                        |              | N                 |
+|                  |      | - Ritual        | Common |           |                                                        |              | N                 |
+|                  |      | - Ritual        | Common |           |                                                        |              | N                 |
+|                  |      | - Ritual        | Common |           |                                                        |              | N                 |
+|                  |      | - Ritual        | Common |           |                                                        |              | N                 |
+|                  |      | - Ritual        | Common |           |                                                        |              | N                 |
+| Bulwark Slime    | 2    | Skill - Minion  | Common | Self      | Summon 1 Bulwark Slime.                                | Cost 2 -> 1. | Y                 |
+| Ravager Slime    | 2    | Skill - Minion  | Common | Self      | Summon 1 Ravager Slime.                                | Cost 2 -> 1. | N                 |
+|                  |      | - Minion        | Common |           |                                                        |              | N                 |
+|                  |      | - Minion        | Common |           |                                                        |              | N                 |
+|                  |      | - Minion        | Common |           |                                                        |              | N                 |
+|                  |      | - Awakened      | Common |           |                                                        |              | N                 |
 
 ## Uncommon Cards (44)
 
@@ -102,35 +102,35 @@ Progress: 4 / 96
 
 *Target distribution: 2 Ritual / 5 Minion / 20 Awakened*
 
-| Name     | Cost | Type            | Rarity | Target    | Description                                         | Upgraded        | Implemented (Y/N) |
-|----------|------|-----------------|--------|-----------|-----------------------------------------------------|-----------------|-------------------|
-| Amputate | 3    | Attack - Ritual | Rare   | Any enemy | Deals 12 damage. Applies 5 bleeding. Gain 2 Ritual. | 5 -> 7, 2 -> 4. | N                 |
-|          |      | - Ritual        | Rare   |           |                                                     |                 | N                 |
-|          |      | - Minion        | Rare   |           |                                                     |                 | N                 |
-|          |      | - Minion        | Rare   |           |                                                     |                 | N                 |
-|          |      | - Minion        | Rare   |           |                                                     |                 | N                 |
-|          |      | - Minion        | Rare   |           |                                                     |                 | N                 |
-|          |      | - Minion        | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
-|          |      | - Awakened      | Rare   |           |                                                     |                 | N                 |
+| Name     | Cost | Type            | Rarity | Target    | Description                                                   | Upgraded            | Implemented (Y/N) |
+|----------|------|-----------------|--------|-----------|---------------------------------------------------------------|---------------------|-------------------|
+| Amputate | 3    | Attack - Ritual | Rare   | Any enemy | Deals 12 damage. Applies 5 bleeding. Gain 2 Ritual. Ethereal. | 5 -> 7, 2 -> 4.     | N                 |
+| Amplify  | 2    | Skill - Ritual  | Rare   | Self      | Double your Ritual. Exhaust.                                  | Triple your Ritual. | N                 |
+|          |      | - Minion        | Rare   |           |                                                               |                     | N                 |
+|          |      | - Minion        | Rare   |           |                                                               |                     | N                 |
+|          |      | - Minion        | Rare   |           |                                                               |                     | N                 |
+|          |      | - Minion        | Rare   |           |                                                               |                     | N                 |
+|          |      | - Minion        | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
+|          |      | - Awakened      | Rare   |           |                                                               |                     | N                 |
 
 ## Token Cards
 
