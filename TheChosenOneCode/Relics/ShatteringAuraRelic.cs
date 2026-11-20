@@ -24,6 +24,8 @@ public class ShatteringAuraRelic : TheChosenOneRelic
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<RitualPower>()];
 
+    private readonly List<Creature> _creaturesToDecay = [];
+    
     public override async Task BeforeCombatStart()
     {
         await PowerCmd.Apply<RitualPower>(
@@ -37,9 +39,14 @@ public class ShatteringAuraRelic : TheChosenOneRelic
 
     public override async Task AfterSideTurnEndLate(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
-        foreach (var participant in participants)
-        {
-            await participant.DecayRitual();
-        }
+	    _creaturesToDecay.AddRange(participants.Where(c => !_creaturesToDecay.Contains(c)));
+	    
+	    if (side != CombatSide.Enemy)
+		    return;
+
+	    foreach (var creature in _creaturesToDecay) 
+		    await creature.DecayRitual();
+	    
+	    _creaturesToDecay.Clear();
     }
 }

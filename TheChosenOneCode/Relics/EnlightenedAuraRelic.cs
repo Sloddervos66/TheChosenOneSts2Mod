@@ -22,6 +22,8 @@ public class EnlightenedAuraRelic : TheChosenOneRelic
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<RitualPower>()];
 
+    private readonly List<Creature> _creaturesToDecay = [];
+    
     public override async Task BeforeCombatStart()
     {
         await PowerCmd.Apply<RitualPower>(
@@ -35,12 +37,14 @@ public class EnlightenedAuraRelic : TheChosenOneRelic
 
     public override async Task AfterSideTurnEndLate(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
-        foreach (var participant in participants)
-        {
-            if (Owner.Creature == participant)
-                continue;
-            
-            await participant.DecayRitual();
-        }
+	    _creaturesToDecay.AddRange(participants.Where(c => !_creaturesToDecay.Contains(c)));
+
+	    if (side != CombatSide.Enemy)
+		    return;
+
+	    foreach (var creature in _creaturesToDecay.Where(creature => creature != Owner.Creature)) 
+		    await creature.DecayRitual();
+	    
+	    _creaturesToDecay.Clear();
     }
 }

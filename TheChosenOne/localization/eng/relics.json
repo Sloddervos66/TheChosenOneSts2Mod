@@ -1,9 +1,9 @@
 {
-    "THECHOSENONE-SHATTERING_AURA_RELIC.description": "[gold]Ritual[/gold] decays by [blue]{RitualDecay}[/blue] at the end of the owner's turn. Before combat, gain [blue]{RitualPower}[/blue] [gold]Ritual[/gold].",
+    "THECHOSENONE-SHATTERING_AURA_RELIC.description": "At the end of each round, all creatures' [gold]Ritual[/gold] decays by [blue]{RitualDecay}[/blue]. Before combat, gain [blue]{RitualPower}[/blue] [gold]Ritual[/gold].",
     "THECHOSENONE-SHATTERING_AURA_RELIC.flavor": "[red]Details for this relic will be revealed in the future...[/red]",
     "THECHOSENONE-SHATTERING_AURA_RELIC.title": "Shattering Aura",
 
-    "THECHOSENONE-ENLIGHTENED_AURA_RELIC.description": "Your [gold]Ritual[/gold] no longer decays. Other creatures' [gold]Ritual[/gold] decays by [blue]{RitualDecay}[/blue] at the end of their turn. Before combat, gain [blue]{RitualPower}[/blue] [gold]Ritual[/gold].",
+    "THECHOSENONE-ENLIGHTENED_AURA_RELIC.description": "Your [gold]Ritual[/gold] no longer decays. At the end of each round, other creatures' [gold]Ritual[/gold] decays by [blue]{RitualDecay}[/blue]. Before combat, gain [blue]{RitualPower}[/blue] [gold]Ritual[/gold].",
     "THECHOSENONE-ENLIGHTENED_AURA_RELIC.flavor": "[red]Details for this relic will be revealed in the future...[/red]",
     "THECHOSENONE-ENLIGHTENED_AURA_RELIC.title": "Enlightened Aura"
 }
