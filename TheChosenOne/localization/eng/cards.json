@@ -19,6 +19,8 @@
     "THECHOSENONE-IMPALEMENT.title": "Impalement",
     "THECHOSENONE-SACRIFICIAL_STRIKE.description": "If you have [gold]Ritual[/gold], lose {RitualPower:diff()} [gold]Ritual[/gold]. Otherwise, lose {HpLoss} HP. Deal {Damage:diff()} damage.",
     "THECHOSENONE-SACRIFICIAL_STRIKE.title": "Sacrificial Strike",
+    "THECHOSENONE-EXECUTION.description": "Deal {Damage:diff()} damage. If the enemy has [gold]Bleeding[/gold], deal {ExtraDamage:diff()} additional damage.",
+    "THECHOSENONE-EXECUTION.title": "Execution",
     "THECHOSENONE-SECRECY.description": "Gain {Block:diff()} [gold]Block[/gold]. Add [gold]Retain[/gold] to a card in your [gold]Hand[/gold].",
     "THECHOSENONE-SECRECY.selectionScreenPrompt": "Select a card to add [gold]Retain[/gold] to.",
     "THECHOSENONE-SECRECY.title": "Secrecy",
