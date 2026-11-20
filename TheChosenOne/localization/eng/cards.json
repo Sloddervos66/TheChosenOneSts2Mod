@@ -17,6 +17,8 @@
     "THECHOSENONE-BLOODSHED.title": "Bloodshed",
     "THECHOSENONE-IMPALEMENT.description": "Deal {Damage:diff()} damage. If you have at least 4 [gold]Ritual[/gold], apply 2 [gold]Bleeding[/gold].",
     "THECHOSENONE-IMPALEMENT.title": "Impalement",
+    "THECHOSENONE-SACRIFICIAL_STRIKE.description": "If you have [gold]Ritual[/gold], lose {RitualPower:diff()} [gold]Ritual[/gold]. Otherwise, lose {HpLoss} HP. Deal {Damage:diff()} damage.",
+    "THECHOSENONE-SACRIFICIAL_STRIKE.title": "Sacrificial Strike",
     "THECHOSENONE-SECRECY.description": "Gain {Block:diff()} [gold]Block[/gold]. Add [gold]Retain[/gold] to a card in your [gold]Hand[/gold].",
     "THECHOSENONE-SECRECY.selectionScreenPrompt": "Select a card to add [gold]Retain[/gold] to.",
     "THECHOSENONE-SECRECY.title": "Secrecy",
