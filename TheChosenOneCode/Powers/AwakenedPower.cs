@@ -13,18 +13,12 @@ namespace TheChosenOne.TheChosenOneCode.Powers;
 public sealed class AwakenedPower : TheChosenOnePower
 {
     public const string Name = nameof(AwakenedPower);
-
-    protected override IEnumerable<DynamicVar> CanonicalVars =>
-    [
-        new PowerVar<StrengthPower>(3m)
-    ];
-    protected override IEnumerable<IHoverTip> ExtraHoverTips =>
-    [
-        HoverTipFactory.FromPower<StrengthPower>()
-    ];
-
+    
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.None;
+    
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<StrengthPower>(3m)];
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<StrengthPower>()];
 
     public override async Task AfterApplied(Creature? applier, CardModel? cardSource)
     {
