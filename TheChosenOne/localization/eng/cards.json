@@ -14,6 +14,8 @@
     "THECHOSENONE-SECRECY.description": "Gain {Block:diff()} [gold]Block[/gold]. Add [gold]Retain[/gold] to a card in your [gold]Hand[/gold].",
     "THECHOSENONE-SECRECY.selectionScreenPrompt": "Select a card to add [gold]Retain[/gold] to.",
     "THECHOSENONE-SECRECY.title": "Secrecy",
+    "THECHOSENONE-FORTIFICATION.description": "Gain {CalculatedBlock:diff()} [gold]Block[/gold]. Gain 2 additional [gold]Block[/gold] for every 2 [gold]Ritual[/gold] you have.",
+    "THECHOSENONE-FORTIFICATION.title": "Fortification",
     
     "THECHOSENONE-BULWARK_SLIME_CARD.description": "Summon 1 [gold]Bulwark Slime[/gold].",
     "THECHOSENONE-BULWARK_SLIME_CARD.title": "Bulwark Slime",
