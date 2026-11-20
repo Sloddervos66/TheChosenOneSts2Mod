@@ -15,7 +15,7 @@ public static class CreatureExtensions
 
         if (creature.IsPlayer && creature.Player!.HasRelic<EnlightenedAuraRelic>())
             return;
-
-        await PowerCmd.TickDownDuration(ritualPower);
+        
+        await PowerCmd.Decrement(ritualPower);
     }
 }

@@ -28,6 +28,7 @@ public class ShatteringAuraRelic : TheChosenOneRelic
     
     public override async Task BeforeCombatStart()
     {
+	    Flash();
         await PowerCmd.Apply<RitualPower>(
             new ThrowingPlayerChoiceContext(),
             Owner.Creature,
