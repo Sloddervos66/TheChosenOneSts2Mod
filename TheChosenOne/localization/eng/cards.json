@@ -21,6 +21,8 @@
     "THECHOSENONE-SACRIFICIAL_STRIKE.title": "Sacrificial Strike",
     "THECHOSENONE-EXECUTION.description": "Deal {Damage:diff()} damage. If the enemy has [gold]Bleeding[/gold], deal {ExtraDamage:diff()} additional damage.",
     "THECHOSENONE-EXECUTION.title": "Execution",
+    "THECHOSENONE-FORBIDDEN_POWER.description": "Deal {Damage:diff()} damage. Gain {RitualPower:diff()} [gold]Ritual[/gold] if this kills the enemy.",
+    "THECHOSENONE-FORBIDDEN_POWER.title": "Forbidden Power",
     "THECHOSENONE-SECRECY.description": "Gain {Block:diff()} [gold]Block[/gold]. Add [gold]Retain[/gold] to a card in your [gold]Hand[/gold].",
     "THECHOSENONE-SECRECY.selectionScreenPrompt": "Select a card to add [gold]Retain[/gold] to.",
     "THECHOSENONE-SECRECY.title": "Secrecy",

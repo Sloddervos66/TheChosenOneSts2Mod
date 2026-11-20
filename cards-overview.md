@@ -33,7 +33,7 @@ Progress: 4 / 96
 | Impalement             | 1    | Attack - Ritual   | Common | Any enemy | Deal 8 damage. If you have at least 4 Ritual, apply 2 Bleeding.                    | 8 -> 11.                         | Y                 |
 | Sacrificial Strike     | 1    | Attack - Ritual   | Common | Any enemy | If you have Ritual, lose 1 Ritual. Otherwise, lose 3 HP. Deal 8 damage.            | 8 -> 11.                         | Y                 |
 | Execution              | 2    | Attack - Ritual   | Common | Any enemy | Deal 10 damage. If the enemy has Bleeding, deal 10 additional damage.              | 10 -> 13.                        | Y                 |
-| Forbidden Power        | 1    | Attack - Ritual   | Common | Any enemy | Deal 6 damage. Gain 1 Ritual if this kills the enemy.                              | 6 -> 9.                          | N                 |
+| Forbidden Power        | 1    | Attack - Ritual   | Common | Any enemy | Deal 6 damage. Gain 1 Ritual if this kills the enemy.                              | 6 -> 9.                          | Y                 |
 | Devotion               | 1    | Skill - Ritual    | Common | Self      | Gain 1 Ritual. If you have 3 or more Ritual, gain 5 Block.                         | 1 Ritual -> 2.                   | N                 |
 | Inscription            | 0    | Skill - Ritual    | Common | Self      | Gain 2 Ritual. Exhaust.                                                            | 2 -> 3.                          | N                 |
 | Blood Infusion         | 1    | Power - Ritual    | Common | Self      | The first time each turn you lose HP, gain 1 Ritual.                               | 1 Ritual -> 2.                   | N                 |
