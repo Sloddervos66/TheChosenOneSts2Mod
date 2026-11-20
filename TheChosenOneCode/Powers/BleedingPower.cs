@@ -1,4 +1,5 @@
 ﻿using BaseLib.Cards.Variables;
+using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -23,16 +24,10 @@ public class BleedingPower : TheChosenOnePower
 
 	protected override IEnumerable<DynamicVar> CanonicalVars =>
 	[
-		new DamageVar(5m, ValueProp.Move),
 		new(DamageDecrease, 0.9m),
-		.. CustomCalculatedVar.Create(
-			BleedDamage,
-			0,
-			static (source, _) => source is PowerModel power ? power.Amount : 0,
-			5
-		)
+		new(BleedDamage, 0m)
 	];
-
+	
 	public override decimal ModifyDamageMultiplicative(Creature? target, decimal amount, ValueProp props, Creature? dealer,
 		CardModel? cardSource, CardPlay? cardPlay)
 	{
@@ -54,18 +49,37 @@ public class BleedingPower : TheChosenOnePower
 
 	public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
 	{
-		foreach (var participant in participants)
-		{
-			await CreatureCmd.Damage(
-				choiceContext,
-				participant,
-				DynamicVars[BleedDamage].BaseValue,
-				ValueProp.Move,
-				null,
-				null
-			);
-			
-			await PowerCmd.TickDownDuration(this);
-		}
+		if (!participants.Contains(Owner))
+			return;
+
+		await Trigger(choiceContext);
+	}
+
+	public override async Task AfterPowerAmountChanged(PlayerChoiceContext choiceContext, PowerModel power, decimal amount, Creature? applier,
+		CardModel? cardSource)
+	{
+		await base.AfterPowerAmountChanged(choiceContext, power, amount, applier, cardSource);
+
+		if (power != this)
+			return;
+
+		DynamicVars[BleedDamage].BaseValue = Amount * 5;
+	}
+
+	private async Task Trigger(PlayerChoiceContext choiceContext)
+	{
+		await CreatureCmd.Damage(
+			choiceContext,
+			Owner,
+			DynamicVars[BleedDamage].BaseValue,
+			ValueProp.Unblockable | ValueProp.Unpowered,
+			null,
+			null
+		);
+
+		if (Owner.IsDead)
+			return;
+
+		await PowerCmd.Decrement(this);
 	}
 }
