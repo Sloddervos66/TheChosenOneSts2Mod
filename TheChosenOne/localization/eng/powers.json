@@ -1,5 +1,9 @@
 {
     "THECHOSENONE-AWAKENED_POWER.description": "Gain [blue]3[/blue] [gold]Strength[/gold]. Whenever you play a [gold]Power[/gold] card, gain [gold]Strength[/gold] equal to its [gold]Energy[/gold] cost.",
     "THECHOSENONE-AWAKENED_POWER.smartDescription": "Gain [blue]{Amount}[/blue] [gold]Strength[/gold]. Whenever you play a [gold]Power[/gold] card, gain [gold]Strength[/gold] equal to its [gold]Energy[/gold] cost.",
-    "THECHOSENONE-AWAKENED_POWER.title": "Awakened"
+    "THECHOSENONE-AWAKENED_POWER.title": "Awakened",
+    
+    "THECHOSENONE-BLEEDING_POWER.description": "Bleeding creatures lose HP at the end of their turn. Attacks deal [blue]10%[/blue] less damage. Each turn, [gold]Bleeding[/gold] is reduced by [blue]1[/blue].",
+    "THECHOSENONE-BLEEDING_POWER.smartDescription": "At the end of {OnPlayer:your turn, lose|its turn, loses} [blue]{BleedDamage}[/blue] HP, then reduce [gold]Bleeding[/gold] by [blue]1[/blue]. Attacks deal [blue]10%[/blue] less damage.",
+    "THECHOSENONE-BLEEDING_POWER.title": "Bleeding"
 }

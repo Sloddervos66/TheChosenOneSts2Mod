@@ -62,7 +62,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="TheChosenOneCode\Cards\Common\Attacks\" />
         <Folder Include="TheChosenOneCode\Cards\Common\Powers\" />
         <Folder Include="TheChosenOneCode\Cards\Rare\Attacks\" />
         <Folder Include="TheChosenOneCode\Cards\Rare\Powers\" />

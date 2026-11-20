@@ -9,6 +9,9 @@
     "THECHOSENONE-HARVEST.description": "Deal {Damage:diff()} damage. If this kills an enemy, gain {RitualPower:diff()} [gold]Ritual[/gold].",
     "THECHOSENONE-HARVEST.title": "Harvest",
     
+    "THECHOSENONE-SACRIFICIAL_DAGGER.description": "Deal {Damage:diff()} damage. Apply {BleedingPower:diff()} [gold]Bleeding[/gold].",
+    "THECHOSENONE-SACRIFICIAL_DAGGER.title": "Sacrificial Dagger",
+    
     "THECHOSENONE-BULWARK_SLIME_CARD.description": "Summon 1 [gold]Bulwark Slime[/gold].",
     "THECHOSENONE-BULWARK_SLIME_CARD.title": "Bulwark Slime",
     
