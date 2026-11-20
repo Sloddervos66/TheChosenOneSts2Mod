@@ -11,6 +11,8 @@
     
     "THECHOSENONE-SACRIFICIAL_DAGGER.description": "Deal {Damage:diff()} damage. Apply {BleedingPower:diff()} [gold]Bleeding[/gold].",
     "THECHOSENONE-SACRIFICIAL_DAGGER.title": "Sacrificial Dagger",
+    "THECHOSENONE-BLOOD_PACT.description": "Deal {CalculatedDamage:diff()} damage. Deal 2 additional damage for every 2 [gold]Ritual[/gold] you have.",
+    "THECHOSENONE-BLOOD_PACT.title": "Blood Pact",
     "THECHOSENONE-SECRECY.description": "Gain {Block:diff()} [gold]Block[/gold]. Add [gold]Retain[/gold] to a card in your [gold]Hand[/gold].",
     "THECHOSENONE-SECRECY.selectionScreenPrompt": "Select a card to add [gold]Retain[/gold] to.",
     "THECHOSENONE-SECRECY.title": "Secrecy",

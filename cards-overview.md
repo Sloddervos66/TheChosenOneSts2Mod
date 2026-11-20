@@ -28,7 +28,7 @@ Progress: 4 / 96
 | Sacrifial Dagger       | 1    | Attack - Ritual   | Common | Any enemy | Deal 4 damage. Apply 2 Bleeding.                                                   | 4 -> 7.                          | Y                 |
 | Secrecy                | 1    | Skill - Ritual    | Common | Self      | Gain 7 Block. Add Retain to a random card in Hand.                                 | 7 -> 10.                         | Y                 |
 | Fortification          | 2    | Skill - Ritual    | Common | Self      | Gain 6 Block. Gain 2 additional Block for every 2 Ritual you have.                 | 6 -> 8.                          | Y                 |
-| Blood Pact             | 1    | Attack - Ritual   | Common | Any enemy | Deal 5 damage. Deal 2 additional damage for every 2 Ritual you have.               | 5 -> 7.                          | N                 |
+| Blood Pact             | 2    | Attack - Ritual   | Common | Any enemy | Deal 5 damage. Deal 2 additional damage for every 2 Ritual you have.               | 5 -> 7.                          | Y                 |
 | Bloodshed              | 2    | Attack - Ritual   | Common | Any enemy | Deal 7 damage twice.                                                               | 7 -> 9.                          | N                 |
 | Impalement             | 1    | Attack - Ritual   | Common | Any enemy | Deal 8 damage. If you have at least 4 Ritual, apply 2 Bleeding.                    | 8 -> 11.                         | N                 |
 | Sacrificial Strike     | 1    | Attack - Ritual   | Common | Any enemy | Lose 1 Ritual. Deal 8 damage.                                                      | 8 -> 11.                         | N                 |
