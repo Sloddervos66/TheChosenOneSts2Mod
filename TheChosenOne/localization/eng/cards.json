@@ -15,6 +15,8 @@
     "THECHOSENONE-BLOOD_PACT.title": "Blood Pact",
     "THECHOSENONE-BLOODSHED.description": "Deal {Damage:diff()} damage twice.",
     "THECHOSENONE-BLOODSHED.title": "Bloodshed",
+    "THECHOSENONE-IMPALEMENT.description": "Deal {Damage:diff()} damage. If you have at least 4 [gold]Ritual[/gold], apply 2 [gold]Bleeding[/gold].",
+    "THECHOSENONE-IMPALEMENT.title": "Impalement",
     "THECHOSENONE-SECRECY.description": "Gain {Block:diff()} [gold]Block[/gold]. Add [gold]Retain[/gold] to a card in your [gold]Hand[/gold].",
     "THECHOSENONE-SECRECY.selectionScreenPrompt": "Select a card to add [gold]Retain[/gold] to.",
     "THECHOSENONE-SECRECY.title": "Secrecy",
