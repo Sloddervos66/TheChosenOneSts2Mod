@@ -30,6 +30,8 @@
     "THECHOSENONE-FORTIFICATION.title": "Fortification",
     "THECHOSENONE-DEVOTION.description": "Gain {RitualPower:diff()} [gold]Ritual[/gold]. If you have 3 or more [gold]Ritual[/gold], gain {Block:diff()} [gold]Block[/gold].",
     "THECHOSENONE-DEVOTION.title": "Devotion",
+    "THECHOSENONE-INSCRIPTION.description": "Gain {RitualPower:diff()} [gold]Ritual[/gold].",
+    "THECHOSENONE-INSCRIPTION.title": "Inscription",
     
     "THECHOSENONE-BULWARK_SLIME_CARD.description": "Summon 1 [gold]Bulwark Slime[/gold].",
     "THECHOSENONE-BULWARK_SLIME_CARD.title": "Bulwark Slime",
