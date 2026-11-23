@@ -8,7 +8,7 @@ using MegaCrit.Sts2.Core.Models.Powers;
 namespace TheChosenOne.TheChosenOneCode.Cards.Common.Skills;
 
 public class Inscription() 
-    : TheChosenOneCard(0, CardType.Skill, CardRarity.Common, TargetType.Self)
+    : TheChosenOneCard(1, CardType.Skill, CardRarity.Common, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new PowerVar<RitualPower>(2m)];
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<RitualPower>()];

@@ -5,5 +5,9 @@
     
     "THECHOSENONE-BLEEDING_POWER.description": "Bleeding creatures lose HP at the end of their turn. Attacks deal [blue]10%[/blue] less damage. Each turn, [gold]Bleeding[/gold] is reduced by [blue]1[/blue].",
     "THECHOSENONE-BLEEDING_POWER.smartDescription": "At the end of {OnPlayer:your turn, lose|its turn, loses} [blue]{BleedDamage}[/blue] HP, then reduce [gold]Bleeding[/gold] by [blue]1[/blue]. Attacks deal [blue]10%[/blue] less damage.",
-    "THECHOSENONE-BLEEDING_POWER.title": "Bleeding"
+    "THECHOSENONE-BLEEDING_POWER.title": "Bleeding",
+
+    "THECHOSENONE-BLOOD_INFUSION_POWER.description": "The first time each turn you lose HP, gain [gold]Ritual[/gold].",
+    "THECHOSENONE-BLOOD_INFUSION_POWER.smartDescription": "The first time each turn you lose HP, gain [blue]{Amount}[/blue] [gold]Ritual[/gold].",
+    "THECHOSENONE-BLOOD_INFUSION_POWER.title": "Blood Infusion"
 }
