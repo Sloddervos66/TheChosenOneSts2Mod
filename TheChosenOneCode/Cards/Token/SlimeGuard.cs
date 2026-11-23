@@ -13,7 +13,10 @@ public class SlimeGuard()
     : TheChosenOneCard(0, CardType.Skill, CardRarity.Token, TargetType.Self)
 {
     public override bool GainsBlock => true;
+    
     protected override IEnumerable<DynamicVar> CanonicalVars => [new BlockVar(2m, ValueProp.Move)];
+
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
