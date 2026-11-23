@@ -37,7 +37,7 @@ Progress: 4 / 96
 | Devotion               | 1    | Skill - Ritual    | Common | Self      | Gain 1 Ritual. If you have 3 or more Ritual, gain 5 Block.                         | 1 Ritual -> 2.                   | Y                 |
 | Inscription            | 1    | Skill - Ritual    | Common | Self      | Gain 2 Ritual. Exhaust.                                                            | 2 -> 3.                          | Y                 |
 | Blood Infusion         | 1    | Power - Ritual    | Common | Self      | The first time each turn you lose HP, gain 1 Ritual.                               | 1 Ritual -> 2.                   | Y                 |
-| Blood Offering         | 2    | Power - Ritual    | Common | Self      | Whenever you sacrifice a Minion, gain 1 Ritual.                                    | 1 Ritual -> 2.                   | N                 |
+| Blood Offering         | 2    | Power - Ritual    | Common | Self      | Whenever you sacrifice a Minion, gain 1 Ritual.                                    | 1 Ritual -> 2.                   | Y                 |
 | Bloodlust              | 1    | Power - Ritual    | Common | Self      | Whenever you kill an enemy, gain 1 Ritual.                                         | 1 Ritual -> 2.                   | N                 |
 | Bulwark Slime          | 2    | Skill - Minion    | Common | Self      | Summon 1 Bulwark Slime.                                                            | Cost 2 -> 1.                     | Y                 |
 | Ravager Slime          | 2    | Skill - Minion    | Common | Self      | Summon 1 Ravager Slime.                                                            | Cost 2 -> 1.                     | N                 |
@@ -135,9 +135,9 @@ Progress: 4 / 96
 ## Token Cards
 
 | Name         | Cost | Type   | Rarity | Target    | Description    | Upgraded | Implemented (Y/N) |
-|--------------|------|--------|--------|-----------|----------------|----------|-------------------|
-| Slime Guard  | 0    | Skill  | Token  | Self      | Gain 2 Block.  | 2 -> 4.  | Y                 |
-| Slime Strike | 0    | Attack | Token  | Any enemy | Deal 2 damage. | 2 -> 4.  | N                 |
+|--------------|------|--------|--------|-----------|-------------------------|----------|-------------------|
+| Slime Guard  | 0    | Skill  | Token  | Self      | Gain 2 Block. Exhaust.  | 2 -> 4.  | Y                 |
+| Slime Strike | 0    | Attack | Token  | Any enemy | Deal 2 damage. Exhaust. | 2 -> 4.  | N                 |
 
 ## Card Distribution Overview
 

@@ -34,6 +34,8 @@
     "THECHOSENONE-INSCRIPTION.title": "Inscription",
     "THECHOSENONE-BLOOD_INFUSION.description": "The first time each turn you lose HP, gain {RitualPower:diff()} [gold]Ritual[/gold].",
     "THECHOSENONE-BLOOD_INFUSION.title": "Blood Infusion",
+    "THECHOSENONE-BLOOD_OFFERING.description": "Whenever you sacrifice a Minion, gain {RitualPower:diff()} [gold]Ritual[/gold].",
+    "THECHOSENONE-BLOOD_OFFERING.title": "Blood Offering",
     
     "THECHOSENONE-BULWARK_SLIME_CARD.description": "Summon 1 [gold]Bulwark Slime[/gold].",
     "THECHOSENONE-BULWARK_SLIME_CARD.title": "Bulwark Slime",

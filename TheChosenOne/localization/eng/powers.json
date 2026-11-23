@@ -1,5 +1,5 @@
 {
-    "THECHOSENONE-AWAKENED_POWER.description": "Gain [blue]3[/blue] [gold]Strength[/gold]. Whenever you play a [gold]Power[/gold] card, gain [gold]Strength[/gold] equal to its [gold]Energy[/gold] cost.",
+    "THECHOSENONE-AWAKENED_POWER.description": "Gain [gold]Strength[/gold]. Whenever you play a [gold]Power[/gold] card, gain [gold]Strength[/gold] equal to its [gold]Energy[/gold] cost.",
     "THECHOSENONE-AWAKENED_POWER.smartDescription": "Gain [blue]{Amount}[/blue] [gold]Strength[/gold]. Whenever you play a [gold]Power[/gold] card, gain [gold]Strength[/gold] equal to its [gold]Energy[/gold] cost.",
     "THECHOSENONE-AWAKENED_POWER.title": "Awakened",
     
@@ -9,5 +9,9 @@
 
     "THECHOSENONE-BLOOD_INFUSION_POWER.description": "The first time each turn you lose HP, gain [gold]Ritual[/gold].",
     "THECHOSENONE-BLOOD_INFUSION_POWER.smartDescription": "The first time each turn you lose HP, gain [blue]{Amount}[/blue] [gold]Ritual[/gold].",
-    "THECHOSENONE-BLOOD_INFUSION_POWER.title": "Blood Infusion"
+    "THECHOSENONE-BLOOD_INFUSION_POWER.title": "Blood Infusion",
+
+    "THECHOSENONE-BLOOD_OFFERING_POWER.description": "Whenever you sacrifice a [gold]Minion[/gold], gain [gold]Ritual[/gold].",
+    "THECHOSENONE-BLOOD_OFFERING_POWER.smartDescription": "Whenever you sacrifice a [gold]Minion[/gold], gain [blue]{Amount}[/blue] [gold]Ritual[/gold].",
+    "THECHOSENONE-BLOOD_OFFERING_POWER.title": "Blood Offering"
 }

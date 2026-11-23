@@ -4,6 +4,7 @@ using BaseLib.Utils;
 using TheChosenOne.TheChosenOneCode.Character;
 using TheChosenOne.TheChosenOneCode.Extensions;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using TheChosenOne.TheChosenOneCode.Enums;
 
 namespace TheChosenOne.TheChosenOneCode.Cards;
 
@@ -19,6 +20,8 @@ public abstract class TheChosenOneCard(int cost, CardType type, CardRarity rarit
 {
     protected const string DefaultAttackVfx = "vfx/vfx_attack_slash";
     
+    public virtual CardStatus Status => CardStatus.None;
+    
     //Image size:
     //Normal art: 1000x760 (Using 500x380 should also work, it will simply be scaled.)
     //Full art: 606x852
@@ -31,4 +34,9 @@ public abstract class TheChosenOneCard(int cost, CardType type, CardRarity rarit
     //Uses card_portraits/card_name.png as image path. These should be smaller images.
     public override string PortraitPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".CardImagePath();
     public override string BetaPortraitPath => $"beta/{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".CardImagePath();
+
+    public bool HasStatus(CardStatus status)
+    {
+        return Status.HasFlag(status);
+    }
 }
