@@ -1,6 +1,7 @@
 ﻿using BaseLib.Abstracts;
 using BaseLib.Extensions;
 using BaseLib.Utils;
+using MegaCrit.Sts2.Core.Commands;
 using TheChosenOne.TheChosenOneCode.Character;
 using TheChosenOne.TheChosenOneCode.Extensions;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -48,5 +49,15 @@ public abstract class TheChosenOneCard(int cost, CardType type, CardRarity rarit
             return target.Monster is BaseMinion;
         
         return base.ShouldAllowTargeting(target);
+    }
+
+    protected async Task<TMinion?> AddMinion<TMinion>() where TMinion : BaseMinion
+    {
+        var pet = await PlayerCmd.AddPet<TMinion>(Owner);
+        if (pet.Monster is not TMinion minion)
+            return null;
+        
+        Owner.RegisterMinion(minion);
+        return minion;
     }
 }

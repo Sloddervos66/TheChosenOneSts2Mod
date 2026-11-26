@@ -1,9 +1,7 @@
-﻿using MegaCrit.Sts2.Core.Commands;
-using MegaCrit.Sts2.Core.Entities.Cards;
+﻿using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
 using TheChosenOne.TheChosenOneCode.Cards.Token;
-using TheChosenOne.TheChosenOneCode.Extensions;
 using TheChosenOne.TheChosenOneCode.Minions;
 using HoverTipExtensions = TheChosenOne.TheChosenOneCode.Extensions.HoverTipExtensions;
 
@@ -20,9 +18,7 @@ public class BulwarkSlimeCard()
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
     {
-        var pet = await PlayerCmd.AddPet<BulwarkSlimeMinion>(Owner);
-        if (pet.Monster is BaseMinion minion)
-            Owner.RegisterMinion(minion);
+        await AddMinion<BulwarkSlimeMinion>();
     }
     
     protected override void OnUpgrade()
