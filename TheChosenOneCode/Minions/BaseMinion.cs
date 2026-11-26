@@ -1,4 +1,5 @@
 ﻿using BaseLib.Abstracts;
+using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Models;
@@ -16,11 +17,15 @@ public abstract class BaseMinion(bool interactable) : CustomPetModel(interactabl
     
     public override Creature ModifyUnblockedDamageTarget(Creature target, decimal amount, ValueProp props, Creature? dealer)
     {
-        if (target.PetOwner?.Creature == target ||
-            Creature.IsDead)
-            return base.ModifyUnblockedDamageTarget(target, amount, props, dealer);
-
-        return Creature;
+        var shouldRedirect =
+            target.Side == CombatSide.Player &&
+            Creature.PetOwner == target.Player;
+        
+        return base.ModifyUnblockedDamageTarget(
+            shouldRedirect
+                ? Creature 
+                : target,
+            amount, props, dealer);
     }
 
     public override Task AfterDeath(PlayerChoiceContext choiceContext, Creature creature, CardModel? source, bool wasRemovalPrevented,
