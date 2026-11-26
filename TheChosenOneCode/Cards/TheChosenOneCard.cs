@@ -4,7 +4,9 @@ using BaseLib.Utils;
 using TheChosenOne.TheChosenOneCode.Character;
 using TheChosenOne.TheChosenOneCode.Extensions;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Creatures;
 using TheChosenOne.TheChosenOneCode.Enums;
+using TheChosenOne.TheChosenOneCode.Minions;
 
 namespace TheChosenOne.TheChosenOneCode.Cards;
 
@@ -38,5 +40,13 @@ public abstract class TheChosenOneCard(int cost, CardType type, CardRarity rarit
     public bool HasStatus(CardStatus status)
     {
         return Status.HasFlag(status);
+    }
+
+    public override bool ShouldAllowTargeting(Creature target)
+    {
+        if (HasStatus(CardStatus.Sacrifice))
+            return target.Monster is BaseMinion;
+        
+        return base.ShouldAllowTargeting(target);
     }
 }

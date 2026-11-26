@@ -39,6 +39,8 @@
     
     "THECHOSENONE-BULWARK_SLIME_CARD.description": "Summon 1 [gold]Bulwark Slime[/gold].",
     "THECHOSENONE-BULWARK_SLIME_CARD.title": "Bulwark Slime",
+    "THECHOSENONE-SACRIFICIAL_DETONATION.description": "Sacrifice a [gold]Minion[/gold]. Deal damage to a random enemy equal to {MultiplyAmount:diff()} times to its current HP.",
+    "THECHOSENONE-SACRIFICIAL_DETONATION.title": "Sacrificial Detonation",
     
     "THECHOSENONE-SLIME_GUARD.description": "Gain {Block:diff()} [gold]Block[/gold].",
     "THECHOSENONE-SLIME_GUARD.title": "Slime Guard"
