@@ -23,8 +23,10 @@
     "THECHOSENONE-EXECUTION.title": "Execution",
     "THECHOSENONE-FORBIDDEN_POWER.description": "Deal {Damage:diff()} damage. Gain {RitualPower:diff()} [gold]Ritual[/gold] if this kills the enemy.",
     "THECHOSENONE-FORBIDDEN_POWER.title": "Forbidden Power",
-    "THECHOSENONE-COORDINATED_ASSAULT.description": "Deal {Damage:diff()} damage. Your minions each deal {MinionDamage:diff()} to the same enemy.",
+    "THECHOSENONE-COORDINATED_ASSAULT.description": "Deal {Damage:diff()} damage. Deal {MinionDamage:diff()} damage for each [gold]Minion[/gold] you have to the same enemy.",
     "THECHOSENONE-COORDINATED_ASSAULT.title": "Coordinated Assault",
+    "THECHOSENONE-SAVAGE_COMMAND.description": "Deal {Damage:diff()} damage. If you have a [gold]Minion[/gold], deal {MinionDamage:diff()} additional damage.",
+    "THECHOSENONE-SAVAGE_COMMAND.title": "Savage Command",
     
     "THECHOSENONE-SECRECY.description": "Gain {Block:diff()} [gold]Block[/gold]. Add [gold]Retain[/gold] to a card in your [gold]Hand[/gold].",
     "THECHOSENONE-SECRECY.selectionScreenPrompt": "Select a card to add [gold]Retain[/gold] to.",
