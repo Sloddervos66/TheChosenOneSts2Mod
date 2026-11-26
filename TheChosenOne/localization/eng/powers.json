@@ -13,5 +13,9 @@
 
     "THECHOSENONE-BLOOD_OFFERING_POWER.description": "Whenever you sacrifice a [gold]Minion[/gold], gain [gold]Ritual[/gold].",
     "THECHOSENONE-BLOOD_OFFERING_POWER.smartDescription": "Whenever you sacrifice a [gold]Minion[/gold], gain [blue]{Amount}[/blue] [gold]Ritual[/gold].",
-    "THECHOSENONE-BLOOD_OFFERING_POWER.title": "Blood Offering"
+    "THECHOSENONE-BLOOD_OFFERING_POWER.title": "Blood Offering",
+
+    "THECHOSENONE-BLOODLUST_POWER.description": "Whenever you kill an enemy, gain [gold]Ritual[/gold].",
+    "THECHOSENONE-BLOODLUST_POWER.smartDescription": "Whenever you kill an enemy, gain [blue]{Amount}[/blue] [gold]Ritual[/gold].",
+    "THECHOSENONE-BLOODLUST_POWER.title": "Bloodlust"
 }

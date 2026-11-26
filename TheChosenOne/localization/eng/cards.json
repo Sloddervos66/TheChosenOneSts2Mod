@@ -36,6 +36,8 @@
     "THECHOSENONE-BLOOD_INFUSION.title": "Blood Infusion",
     "THECHOSENONE-BLOOD_OFFERING.description": "Whenever you sacrifice a Minion, gain {RitualPower:diff()} [gold]Ritual[/gold].",
     "THECHOSENONE-BLOOD_OFFERING.title": "Blood Offering",
+    "THECHOSENONE-BLOODLUST.description": "Whenever you kill an enemy, gain {RitualPower:diff()} [gold]Ritual[/gold].",
+    "THECHOSENONE-BLOODLUST.title": "Bloodlust",
     
     "THECHOSENONE-BULWARK_SLIME_CARD.description": "Summon 1 [gold]Bulwark Slime[/gold].",
     "THECHOSENONE-BULWARK_SLIME_CARD.title": "Bulwark Slime",

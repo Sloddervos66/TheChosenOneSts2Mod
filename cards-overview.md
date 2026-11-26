@@ -38,7 +38,7 @@ Progress: 4 / 96
 | Inscription            | 1    | Skill - Ritual    | Common | Self      | Gain 2 Ritual. Exhaust.                                                            | 2 -> 3.                          | Y                 |
 | Blood Infusion         | 1    | Power - Ritual    | Common | Self      | The first time each turn you lose HP, gain 1 Ritual.                               | 1 Ritual -> 2.                   | Y                 |
 | Blood Offering         | 2    | Power - Ritual    | Common | Self      | Whenever you sacrifice a Minion, gain 1 Ritual.                                    | 1 Ritual -> 2.                   | Y                 |
-| Bloodlust              | 1    | Power - Ritual    | Common | Self      | Whenever you kill an enemy, gain 1 Ritual.                                         | 1 Ritual -> 2.                   | N                 |
+| Bloodlust              | 1    | Power - Ritual    | Common | Self      | Whenever you kill an enemy, gain 1 Ritual.                                         | 1 Ritual -> 2.                   | Y                 |
 | Bulwark Slime          | 2    | Skill - Minion    | Common | Self      | Summon 1 Bulwark Slime.                                                            | Cost 2 -> 1.                     | Y                 |
 | Ravager Slime          | 2    | Skill - Minion    | Common | Self      | Summon 1 Ravager Slime.                                                            | Cost 2 -> 1.                     | N                 |
 | Coordinated Assault    | 1    | Attack - Minion   | Common | Any enemy | Deal 6 damage. Your minions each deal 3 damage to the same enemy.                  | 6 -> 9.                          | N                 |
