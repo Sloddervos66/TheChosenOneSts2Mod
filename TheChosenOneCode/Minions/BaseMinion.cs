@@ -3,6 +3,7 @@ using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.MonsterMoves.MonsterMoveStateMachine;
 using MegaCrit.Sts2.Core.ValueProps;
 using TheChosenOne.TheChosenOneCode.Cards;
 using TheChosenOne.TheChosenOneCode.Enums;
@@ -14,6 +15,13 @@ public abstract class BaseMinion(bool interactable) : CustomPetModel(interactabl
     public event Action<BaseMinion>? OnDeath;
     
     public bool WasSacrificed { get; private set; }
+    
+    protected override MonsterMoveStateMachine GenerateMoveStateMachine()
+    {
+        var moveState = new MoveState("NOTHING_MOVE", _ => Task.CompletedTask);
+        moveState.FollowUpState = moveState;
+        return new MonsterMoveStateMachine([moveState], moveState);
+    }
     
     public override Creature ModifyUnblockedDamageTarget(Creature target, decimal amount, ValueProp props, Creature? dealer)
     {

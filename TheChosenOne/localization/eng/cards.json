@@ -38,12 +38,16 @@
     "THECHOSENONE-BLOOD_OFFERING.title": "Blood Offering",
     "THECHOSENONE-BLOODLUST.description": "Whenever you kill an enemy, gain {RitualPower:diff()} [gold]Ritual[/gold].",
     "THECHOSENONE-BLOODLUST.title": "Bloodlust",
-    
-    "THECHOSENONE-BULWARK_SLIME_CARD.description": "Summon 1 [gold]Bulwark Slime[/gold].",
-    "THECHOSENONE-BULWARK_SLIME_CARD.title": "Bulwark Slime",
+
+    "THECHOSENONE-BULWARK_SLIME.description": "Summon 1 [gold]Bulwark Slime[/gold].",
+    "THECHOSENONE-BULWARK_SLIME.title": "Bulwark Slime",
+    "THECHOSENONE-RAVAGER_SLIME.description": "Summon 1 [gold]Ravager Slime[/gold].",
+    "THECHOSENONE-RAVAGER_SLIME.title": "Ravager Slime",
     "THECHOSENONE-SACRIFICIAL_DETONATION.description": "Sacrifice a [gold]Minion[/gold]. Deal damage to a random enemy equal to {MultiplyAmount:diff()} times to its current HP.",
     "THECHOSENONE-SACRIFICIAL_DETONATION.title": "Sacrificial Detonation",
     
     "THECHOSENONE-SLIME_GUARD.description": "Gain {Block:diff()} [gold]Block[/gold].",
-    "THECHOSENONE-SLIME_GUARD.title": "Slime Guard"
+    "THECHOSENONE-SLIME_GUARD.title": "Slime Guard",
+    "THECHOSENONE-SLIME_STRIKE.description": "Deal {Damage:diff()} damage.",
+    "THECHOSENONE-SLIME_STRIKE.title": "Slime Strike"
 }

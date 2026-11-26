@@ -1,4 +1,7 @@
 {
     "THECHOSENONE-BULWARK_SLIME_MINION.name": "Bulwark Slime",
-    "THECHOSENONE-BULWARK_SLIME_MINION.description": "6 HP. At the start of your turn gain [gold]Slime Guard[/gold]."
+    "THECHOSENONE-BULWARK_SLIME_MINION.description": "6 HP. At the start of your turn gain [gold]Slime Guard[/gold].",
+
+    "THECHOSENONE-RAVAGER_SLIME_MINION.name": "Ravager Slime",
+    "THECHOSENONE-RAVAGER_SLIME_MINION.description": "4 HP. At the start of your turn gain [gold]Slime Strike[/gold]."
 }

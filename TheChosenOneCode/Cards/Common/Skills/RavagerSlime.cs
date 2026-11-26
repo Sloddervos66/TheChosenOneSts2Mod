@@ -7,20 +7,20 @@ using HoverTipExtensions = TheChosenOne.TheChosenOneCode.Extensions.HoverTipExte
 
 namespace TheChosenOne.TheChosenOneCode.Cards.Common.Skills;
 
-public class BulwarkSlimeCard()
+public class RavagerSlime() 
     : TheChosenOneCard(2, CardType.Skill, CardRarity.Common, TargetType.Self)
 {
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
-        HoverTipExtensions.FromMonster<BulwarkSlimeMinion>(),
-        HoverTipFactory.FromCard<SlimeGuard>()
+        HoverTipExtensions.FromMonster<RavagerSlimeMinion>(),
+        HoverTipFactory.FromCard<SlimeStrike>()
     ];
 
-    protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
+    protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await AddMinion<BulwarkSlimeMinion>();
+        await AddMinion<RavagerSlimeMinion>();
     }
-    
+
     protected override void OnUpgrade()
     {
         EnergyCost.UpgradeBy(-1);
