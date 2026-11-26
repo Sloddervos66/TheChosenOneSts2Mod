@@ -40,7 +40,7 @@ Progress: 4 / 96
 | Blood Offering         | 2    | Power - Ritual    | Common | Self      | Whenever you sacrifice a Minion, gain 1 Ritual.                                    | 1 Ritual -> 2.                   | Y                 |
 | Bloodlust              | 1    | Power - Ritual    | Common | Self      | Whenever you kill an enemy, gain 1 Ritual.                                         | 1 Ritual -> 2.                   | Y                 |
 | Bulwark Slime          | 2    | Skill - Minion    | Common | Self      | Summon 1 Bulwark Slime.                                                            | Cost 2 -> 1.                     | Y                 |
-| Ravager Slime          | 2    | Skill - Minion    | Common | Self      | Summon 1 Ravager Slime.                                                            | Cost 2 -> 1.                     | N                 |
+| Ravager Slime          | 2    | Skill - Minion    | Common | Self      | Summon 1 Ravager Slime.                                                            | Cost 2 -> 1.                     | Y                 |
 | Coordinated Assault    | 1    | Attack - Minion   | Common | Any enemy | Deal 6 damage. Your minions each deal 3 damage to the same enemy.                  | 6 -> 9.                          | N                 |
 | Savage Command         | 1    | Attack - Minion   | Common | Any enemy | Deal 8 damage. If you have a Minion, deal 5 additional damage.                     | 8 -> 11.                         | N                 |
 | Sacrificial Detonation | 1    | Skill - Minion    | Common | Any ally  | Sacrifice a Minion. Deal damage to a random enemy equal to 3 times its current HP. | 3 -> 5.                          | Y                 |
