@@ -43,7 +43,7 @@ Progress: 4 / 96
 | Ravager Slime          | 2    | Skill - Minion    | Common | Self      | Summon 1 Ravager Slime.                                                            | Cost 2 -> 1.                     | N                 |
 | Coordinated Assault    | 1    | Attack - Minion   | Common | Any enemy | Deal 6 damage. Your minions each deal 3 damage to the same enemy.                  | 6 -> 9.                          | N                 |
 | Savage Command         | 1    | Attack - Minion   | Common | Any enemy | Deal 8 damage. If you have a Minion, deal 5 additional damage.                     | 8 -> 11.                         | N                 |
-| Sacrificial Detonation | 1    | Skill - Minion    | Common | Any ally  | Sacrifice a Minion. Deal damage to a random enemy equal to 3 times its current HP. | 3 -> 5.                          | N                 |
+| Sacrificial Detonation | 1    | Skill - Minion    | Common | Any ally  | Sacrifice a Minion. Deal damage to a random enemy equal to 3 times its current HP. | 3 -> 5.                          | Y                 |
 | Unbound                | 1    | Attack - Awakened | Common | Any enemy | Calm: Deal 5 damage. Gain 4 Block. Awakened: Deal 9 damage.                        | Calm: 5 -> 7. Awakened: 9 -> 11. | N                 |
 
 ## Uncommon Cards (44)
