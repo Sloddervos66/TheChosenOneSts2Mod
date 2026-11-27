@@ -2,10 +2,18 @@
 using BaseLib.Utils.NodeFactories;
 using TheChosenOne.TheChosenOneCode.Extensions;
 using Godot;
+using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Characters;
+using MegaCrit.Sts2.Core.Entities.Creatures;
+using MegaCrit.Sts2.Core.Entities.Players;
+using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Models.Powers;
+using MegaCrit.Sts2.Core.Rooms;
 using TheChosenOne.TheChosenOneCode.Cards.Basic;
 using TheChosenOne.TheChosenOneCode.Constants;
+using TheChosenOne.TheChosenOneCode.Enums;
+using TheChosenOne.TheChosenOneCode.Powers;
 using TheChosenOne.TheChosenOneCode.Relics;
 
 namespace TheChosenOne.TheChosenOneCode.Character;
@@ -13,8 +21,8 @@ namespace TheChosenOne.TheChosenOneCode.Character;
 public class TheChosenOne : PlaceholderCharacterModel
 {
     public const string CharacterId = "TheChosenOne";
-
-    public static bool IsAwakened = false;
+    
+    public CharacterState CurrentState { get; private set; }
 
     public override Color NameColor => TheChosenOneColours.BloodRed;
     public override CharacterGender Gender => CharacterGender.Masculine;
@@ -62,4 +70,23 @@ public class TheChosenOne : PlaceholderCharacterModel
     public override string CustomCharacterSelectIconPath => "char_select_char_name.png".CharacterUiPath();
     public override string CustomCharacterSelectLockedIconPath => "char_select_char_name_locked.png".CharacterUiPath();
     public override string CustomMapMarkerPath => "map_marker_char_name.png".CharacterUiPath();
+
+    public async Task Awaken(PlayerChoiceContext choiceContext, Player player, CardModel cardSource)
+    {
+        CurrentState = CharacterState.Awakened;
+        await PowerCmd.Apply<StrengthPower>(choiceContext, player.Creature, 3m, player.Creature, cardSource);
+        await PowerCmd.Apply<AwakenedPower>(choiceContext, player.Creature, 1m, player.Creature, cardSource);
+    }
+
+    public async Task BecomeCalm(Creature playerCreature)
+    {
+        CurrentState = CharacterState.Calm;
+        await PowerCmd.Remove<AwakenedPower>(playerCreature);
+    }
+    
+    public override Task AfterCombatEnd(CombatRoom room)
+    {
+        CurrentState = CharacterState.Calm;
+        return base.AfterCombatEnd(room);
+    }
 }

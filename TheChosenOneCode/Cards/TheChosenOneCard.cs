@@ -22,6 +22,8 @@ public abstract class TheChosenOneCard(int cost, CardType type, CardRarity rarit
     CustomCardModel(cost, type, rarity, target)
 {
     protected const string DefaultAttackVfx = "vfx/vfx_attack_slash";
+
+    public virtual bool AllowCrossCharacterGeneration => true;
     
     public virtual CardStatus Status => CardStatus.None;
     

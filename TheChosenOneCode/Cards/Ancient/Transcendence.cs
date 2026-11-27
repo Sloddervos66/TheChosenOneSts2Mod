@@ -13,7 +13,9 @@ public partial class Transcendence()
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new HpLossVar(10m)];
     protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPower<AwakenedPower>()];
+    
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
+    public override bool AllowCrossCharacterGeneration => false;
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
@@ -25,14 +27,9 @@ public partial class Transcendence()
             this,
             cardPlay
         );
-        
-        await PowerCmd.Apply<AwakenedPower>(
-            choiceContext,
-            Owner.Creature,
-            1m,
-            Owner.Creature,
-            this
-        );
+
+        if (Owner.Character is Character.TheChosenOne character)
+            await character.Awaken(choiceContext, Owner, cardPlay.Card);
     }
 
     protected override void OnUpgrade()

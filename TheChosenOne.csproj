@@ -68,6 +68,7 @@
         <Folder Include="TheChosenOneCode\Cards\Uncommon\Attacks\" />
         <Folder Include="TheChosenOneCode\Cards\Uncommon\Powers\" />
         <Folder Include="TheChosenOneCode\Cards\Uncommon\Skills\" />
+        <Folder Include="TheChosenOneCode\Scenes\" />
         <Folder Include="TheChosenOne\images\card_portraits\big\"/>
         <Folder Include="TheChosenOne\images\powers\big\"/>
         <Folder Include="TheChosenOne\images\relics\big\"/>

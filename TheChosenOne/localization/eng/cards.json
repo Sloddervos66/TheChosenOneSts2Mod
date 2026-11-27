@@ -27,6 +27,8 @@
     "THECHOSENONE-COORDINATED_ASSAULT.title": "Coordinated Assault",
     "THECHOSENONE-SAVAGE_COMMAND.description": "Deal {Damage:diff()} damage. If you have a [gold]Minion[/gold], deal {MinionDamage:diff()} additional damage.",
     "THECHOSENONE-SAVAGE_COMMAND.title": "Savage Command",
+    "THECHOSENONE-UNBOUND.description": "{IsAwakened:Deal {AwakenedDamage:diff()} damage.|Deal {Damage:diff()} damage. Gain {Block:diff()} [gold]Block[/gold].}",
+    "THECHOSENONE-UNBOUND.title": "Unbound",
     
     "THECHOSENONE-SECRECY.description": "Gain {Block:diff()} [gold]Block[/gold]. Add [gold]Retain[/gold] to a card in your [gold]Hand[/gold].",
     "THECHOSENONE-SECRECY.selectionScreenPrompt": "Select a card to add [gold]Retain[/gold] to.",
@@ -54,5 +56,10 @@
     "THECHOSENONE-SLIME_GUARD.description": "Gain {Block:diff()} [gold]Block[/gold].",
     "THECHOSENONE-SLIME_GUARD.title": "Slime Guard",
     "THECHOSENONE-SLIME_STRIKE.description": "Deal {Damage:diff()} damage.",
-    "THECHOSENONE-SLIME_STRIKE.title": "Slime Strike"
+    "THECHOSENONE-SLIME_STRIKE.title": "Slime Strike",
+
+    "THECHOSENONE-TEST_AWAKEN.description": "",
+    "THECHOSENONE-TEST_AWAKEN.title": "TestAwaken",
+    "THECHOSENONE-TEST_CALM.description": "",
+    "THECHOSENONE-TEST_CALM.title": "TestCalm"
 }
